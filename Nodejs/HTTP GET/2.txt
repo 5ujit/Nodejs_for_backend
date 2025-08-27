@@ -1,0 +1,55 @@
+HTTP → Hypertext Transfer Protocol (used for communication between client and server).
+
+Works with requests (client → server) and responses (server → client).
+
+Common request methods:
+
+GET → fetch data
+
+POST → send data
+
+PUT → update data
+
+DELETE → remove data
+
+Ways to make HTTP requests in Node.js:
+
+http / https module (built-in, low level)
+
+fetch() (built into Node 18+)
+
+axios / node-fetch (external libraries, easy to use)
+
+Request components:
+
+URL → where to send request
+
+Method → action type (GET, POST, etc.)
+
+Headers → extra info like Content-Type
+
+Body → data sent with POST or PUT (use JSON.stringify)
+
+Basic flow using http module:
+
+create request → listen for data → collect chunks → on end process full response → handle error → end request
+
+Basic flow using fetch or axios:
+
+call function with URL → wait for response → convert to JSON → handle data → handle errors
+
+Always check response status code:
+
+200 OK
+
+404 Not Found
+
+500 Server Error
+
+Use try...catch or .catch() for error handling.
+
+Use JSON when sending structured data.
+
+Always end the request with req.end() when using http module.
+
+Fetch/axios automatically handle most details (simpler than http module).
