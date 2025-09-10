@@ -1,0 +1,56 @@
+🔹 REST API (Representational State Transfer – Application Programming Interface)
+
+Definition:
+
+REST is an architectural style for designing web services.
+
+REST APIs allow communication between client and server using HTTP methods.
+
+Key Principles:
+
+Stateless → Each request is independent; server does not store client session.
+
+Client-Server → Separation of frontend (client) and backend (server).
+
+Uniform Interface → Same rules (URLs, methods, status codes) across the API.
+
+Cacheable → Responses can be cached to improve performance.
+
+Layered System → Multiple layers (proxy, load balancer) without affecting client.
+
+HTTP Methods:
+
+GET → Retrieve data.
+
+POST → Create new resource.
+
+PUT → Update entire resource.
+
+PATCH → Update part of a resource.
+
+DELETE → Remove resource.
+
+Data Format:
+
+Mostly uses JSON (also XML, plain text, etc.).
+
+Endpoints:
+
+API resources are accessed via URLs (e.g., /users, /products/123).
+
+Status Codes:
+
+200 OK → Success.
+
+201 Created → Resource created.
+
+400 Bad Request → Invalid request.
+
+401 Unauthorized → Authentication needed.
+
+404 Not Found → Resource not available.
+
+500 Internal Server Error → Server issue.
+
+✅ In short:
+A REST API is a simple, stateless, and scalable way to let applications communicate over HTTP using standard methods like GET, POST, PUT, DELETE with JSON data.
