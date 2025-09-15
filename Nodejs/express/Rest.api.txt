@@ -53,4 +53,5 @@ Status Codes:
 500 Internal Server Error → Server issue.
 
 ✅ In short:
-A REST API is a simple, stateless, and scalable way to let applications communicate over HTTP using standard methods like GET, POST, PUT, DELETE with JSON data.
+
+A REST API is a simple, stateless, and scalable way to let applications communicate over HTTP using standard methods like GET, POST, PUT, DELETE with JSON data.x
