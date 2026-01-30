@@ -1,0 +1,60 @@
+REST API - JSON 
+
+GET / user -List all user 
+GET /user/1 -Get the user wityh ID 1 
+GET /user/1 -Get the user wityh ID 2
+
+POST /user -create new user
+
+PATCH /users/1 Edit the user with ID 1 
+
+DELETE /users/1 Delete the user with ID 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{[Yes 👍 I understood your main aim clearly.
+Here it is in small simple points:
+
+Build a dashboard where users can talk to AI versions of real mentors (like Sandeep Maheshwari, Sonu Sharma, , etc.).
+
+Each mentor-AI is trained only on that mentor’s YouTube video ( no need to meanition for transipt  )transcripts].
+
+
+When user asks a question, system finds relevant video leeacture (data =taking form video transcripts) and AI answers in that mentor’s style.
+
+AI also shows the YouTube video reference from where the idea was taken.
+
+System can automatically fetch new video transcripts and update itself.
+
+That’s your core project aim ✅
+
+
+main thingh  is if need 
+any dought form any guide it should not taken form any one ( if the qusitno ask form a praticualr teacher or guide that means he( that ai mentror which is made on the basise of that mantor only okey ))
+]}
